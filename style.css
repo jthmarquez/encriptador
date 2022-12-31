@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: green;
+}
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+    background: blue;
+}
+.logo{
+    width: 100%;
+    float: left;
+    background: red;
+}
+.left{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background: yellow;
+}
+.right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    background: orange;
+}
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+    background: pink;
+}
+.logoImg{
+    margin-top: 1%;
+    margin-left: 5%;
+    float: inherit;
+}
+.tittle{
+    float: inherit;
+    margin-left: 20%;
+}
