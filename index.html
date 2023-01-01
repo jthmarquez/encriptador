@@ -13,13 +13,19 @@
                 <h1 class="tittle">Encriptador de Mensajes</h1>
             </div>
             <div class="left">
-                <h1>para panel izquierdo</h1>
+                <input class="text-input" type="text" placeholder="Ingrese el texto aqui">
             </div>
             <div class="right">
-                <h1>para panel derecho</h1>
+                <img src="../encriptador/img/muneco.png" id="imgDer">
+                <h1 id="texto">Ningun mensaje fue encontrado</h1>
+                <textarea id="texto2" name="name" rows="8" cols="80">Ingresa el texto que desees encriptar o desencriptar.</textarea>
             </div>
             <div class="left-button">
-                <h1>para botones</h1>
+                <div id="alerta">
+                    <p class="alerta" ><img src="../encriptador/img/alerta.png" alt="icon"> Solo letras minúsculas y sin acentos</p>
+                </div>            
+                <button type="button" id="btn-encriptar">Encriptar</button>
+                <button type="button" id="btn-desencriptar">Desencriptar</button>
             </div>
         </div>
     </body>
