@@ -77,6 +77,16 @@ body{
     border: none;
     outline: none;
 }
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: rgba(226, 226, 224, 0.904);
+    border-radius: 24px;
+    display: none;
+}
 #alerta{
     margin: auto;
     width: 650px;
