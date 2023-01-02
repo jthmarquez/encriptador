@@ -4,6 +4,7 @@
         <meta charset="utf-8" dir="ltr">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
         <title>challenge 1</title>
     </head>
     <body>
@@ -19,14 +20,14 @@
                 <img src="../encriptador/img/muneco.png" id="imgDer">
                 <h1 id="texto">Ningun mensaje fue encontrado</h1>
                 <textarea id="texto2" name="name" rows="8" cols="80">Ingresa el texto que desees encriptar o desencriptar.</textarea>
-                <button id="copiar" type="button" mame="button">¡Copiar!</button>
+                <button id="copiar" type="button" mame="button" onclick="copy()">¡Copiar!</button>
             </div>
             <div class="left-button">
                 <div id="alerta">
                     <p class="alerta" ><img src="../encriptador/img/alerta.png" alt="icon"> Solo letras minúsculas y sin acentos</p>
                 </div>            
-                <button type="button" id="btn-encriptar">Encriptar</button>
-                <button type="button" id="btn-desencriptar">Desencriptar</button>
+                <button type="button" id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
             </div>
         </div>
     </body>
